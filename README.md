@@ -19,17 +19,22 @@
    pip install -r requirements.txt
    ```
 
-4. Apply the database migrations:
+4. Install djangorestframework:
+   ```bash
+   pip install djangorestframework
+   ```
+
+5. Apply the database migrations:
    ```bash
    python manage.py migrate
    ```
 
-5. Create a superuser account:
+6. Create a superuser account:
    ```bash
    python manage.py createsuperuser
    ```
 
-6. Start the development server:
+7. Start the development server:
    ```bash
    python manage.py runserver
    ```
